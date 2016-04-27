@@ -1,3 +1,5 @@
+(* Software Foundations *)
+(* Exercice *** mult_assoc *)
 Theorem mult_plus_distr_r: forall n m p: nat,
       (n+m)*p = (n*p) + (m*p).
 Proof.
