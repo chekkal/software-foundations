@@ -39,7 +39,7 @@ Proof.
 (* already solved see mult_comm.v *)
 Admitted.
 
-Theorem binary_commute: forall (b: bin) (n: nat), 
+Theorem binary_commute: forall (b: bin), 
       binary_to_unary(increment(b))= binary_to_unary(b)+1.
 
 Proof.
