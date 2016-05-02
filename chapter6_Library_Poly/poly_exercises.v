@@ -10,7 +10,7 @@ Arguments cons {X} _ _.
 
 Notation "[]":= nil.
 Notation "h :: t":= (cons h t) (at level 60, right associativity).
-Notation "[ x ; .. ; y ]" :=(cons x .. (cons y nil) ..) (at level 60, right associativity).
+Notation "[ x ; .. ; y ]" :=(cons x .. (cons y nil) ..).
 
 Fixpoint repeat{X: Type}(n: X)(count: nat): list X:=
     match count with
